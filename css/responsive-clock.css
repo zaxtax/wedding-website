@@ -1,5 +1,4 @@
 
-
 @media screen and (max-width: 767px) {
   .flipTimebox .flip-clock-wrapper ul {
     height: 50px;
@@ -179,6 +178,7 @@
   }
 }
 
+/* Center countdown and prevent wrapping */
 .flipTimebox {
   text-align: center;
 }
@@ -194,6 +194,16 @@
 .flip-clock-wrapper ul,
 .flip-clock-divider {
   float: none !important;
+}
+
+/* Override browser default ul padding that bloats flip cards */
+.flip-clock-wrapper ul.flip {
+  padding: 0;
+}
+
+/* Prevent table layout from stretching beyond viewport on narrow screens */
+.fh5co-cover .display-t {
+  table-layout: fixed;
 }
 
 @media screen and (max-width: 767px) {
