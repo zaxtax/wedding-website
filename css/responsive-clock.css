@@ -206,11 +206,7 @@
   table-layout: fixed;
 }
 
-@media screen and (max-width: 767px) {
-  .flip-clock-wrapper {
-    margin: 1em auto !important;
-  }
-}
+
 
 .flip-clock-divider .flip-clock-label {
   color: white !important;
